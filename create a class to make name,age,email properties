@@ -1,0 +1,8 @@
+class student:
+    def intro(self,name,age,email):
+        self.nam=name
+        self.ag=age
+        self.mail=email
+        return self.nam,self.ag,self.mail
+s1=student()
+print(s1.intro("gaurav",25,"gaurav@gmil.com"))        
